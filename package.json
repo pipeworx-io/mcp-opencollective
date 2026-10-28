@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-opencollective",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Open Collective public MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ce95bfd0126e440e50fd69eaac633c99f214408e7d8e0fe11d3e1ddcacc80866",
-    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
+    "sourceHash": "v1-4ac296b84aabc0c8f64eb8fc5099ded9494a64e101a14e47d720489ecb37f8db",
+    "sourceCommit": "f54ad77e789f27fe393978f9c080b5b18c87bb4f"
   }
 }
