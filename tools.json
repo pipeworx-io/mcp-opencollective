@@ -1,0 +1,75 @@
+[
+  {
+    "name": "collective",
+    "description": "Public collective info by slug (name, balance, currency, sponsors).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "slug": {
+          "type": "string",
+          "description": "e.g. \"babel\", \"webpack\", \"preact\""
+        }
+      },
+      "required": [
+        "slug"
+      ]
+    }
+  },
+  {
+    "name": "members",
+    "description": "Members (backers / sponsors / admins / contributors) for a collective.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "slug": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string",
+          "description": "BACKER | SPONSOR | ADMIN | CONTRIBUTOR (default ALL)"
+        }
+      },
+      "required": [
+        "slug"
+      ]
+    }
+  },
+  {
+    "name": "transactions",
+    "description": "Transaction list for a collective.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "slug": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "description": "CREDIT | DEBIT (default both)"
+        },
+        "limit": {
+          "type": "number",
+          "description": "1-1000 (default 100)"
+        }
+      },
+      "required": [
+        "slug"
+      ]
+    }
+  },
+  {
+    "name": "events",
+    "description": "Events for a collective.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "slug": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "slug"
+      ]
+    }
+  }
+]
