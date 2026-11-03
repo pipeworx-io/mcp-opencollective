@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-opencollective",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Open Collective public MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "opencollective",
     "gatewaySlug": "opencollective",
-    "sourceHash": "v1-1f023650c645fc053bdbaefcb5e046af8b4f28f3c8cd23fdcb0543c639a5bf62",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-f5ab608c09c9a017fb9967e74679bac56e1d543af8bca986a3672ebe8609dd40",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
